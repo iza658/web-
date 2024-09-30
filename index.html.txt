@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INEB-D - Instituto Nacional de Educacion Basica y Diversificada "Sergio Leonel Celis Navas"</title>
+    <style>
+        body {
+         font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+         background-color: #94f8fc;
+        }
+        header {
+            background-color: #4791e0;
+            color: rgb(105, 18, 146);
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #d3a9c5;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: rgb(40, 68, 226);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #b47d06;
+        }
+        .container {
+            padding: 20px;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .galeria img {
+         width: 100%;
+         max-width: 300px;
+            height: auto;
+            border: 2px solid #007BFF;
+        }
+        footer {
+         text-align: center;
+         padding: 10px;
+        background-color: #688199;
+        color: white;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+        .comentarios {
+            margin-top: 20px;
+         padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comentarios textarea {
+            width: 100%;
+            height: 100px;
+        }
+        .comentarios button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        .comentarios button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INEB-D</h1>
+        <h2>Instituto Nacional de Educacion Basica y Diversificada "Sergio Leonel Celis Navas</h2>
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#comentarios">Comentarios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#publicaciones">Publicaciones</a>
+    </nav>
+    <div class="container">
+        <section id="comentarios" class="comentarios">
+            <h3>Deja tu comentario</h3>
+            <textarea placeholder="Escribe tu comentario aquí..."></textarea>
+            <br>
+            <button>Enviar</button>
+        </section>
+
+        <section id="galeria">
+            <h3>Galería</h3>
+            <div class="galeria">
+                <img src="c:\Users\MATEMATICA\Desktop\LOGO DE INED.jpg" alt="Imagen 1">
+                <img src="c:\Users\MATEMATICA\Desktop\insti.jpg" alt="Imagen 2">
+                <img src="c:\Users\MATEMATICA\Desktop\img\img. .jpg" alt="Imagen 3">
+                <img src="c:\Users\MATEMATICA\Desktop\img\img....jpg" alt="Imagen 4">
+                <img src="c:\Users\MATEMATICA\Desktop\5to baco.jpg" alt="Imagen 5">
+            </div>
+        </section>
+
+        <section id="publicaciones">
+            <h3>Publicaciones</h3>
+            <p>Para más información, visita nuestro <a href="https://www.facebook.com/profile.php?id=100063559627992&mibextid=ZbWKwL" target="_blank">sitio web</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 INEB-D. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
